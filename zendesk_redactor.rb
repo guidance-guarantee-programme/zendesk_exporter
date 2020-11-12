@@ -1,5 +1,6 @@
 require 'http'
 require 'redis'
+require_relative 'config'
 
 class ZendeskRedactor
   REDIS_TICKET_ID_PAGE   = 100
