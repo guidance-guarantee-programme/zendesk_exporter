@@ -3,6 +3,9 @@ GEM
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    bugsnag (6.18.0)
+      concurrent-ruby (~> 1.0)
+    concurrent-ruby (1.1.7)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     ffi (1.12.2)
@@ -47,6 +50,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bugsnag
   foreman
   http
   json

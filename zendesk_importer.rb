@@ -1,5 +1,6 @@
 require 'http'
 require 'redis'
+require_relative 'config'
 
 class ZendeskImporter
   ZENDESK_API_URL = 'https://pensionwise.zendesk.com/api/v2/incremental/tickets.json'
