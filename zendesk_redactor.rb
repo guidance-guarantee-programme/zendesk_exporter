@@ -3,7 +3,6 @@ require 'redis'
 require_relative 'config'
 
 class ZendeskRedactor
-  REDIS_TICKET_ID_PAGE   = 100
   REDIS_TICKET_ID_SET    = 'zendesk_ticket_ids'.freeze
   SECONDS_IN_TWO_YEARS   = 630_720_00
 
